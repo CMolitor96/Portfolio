@@ -31,11 +31,11 @@ nav ul li {
     position: relative;
 }
 
-header nav ul {
+nav ul {
     list-style-type: none;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
     color: black;
 }
@@ -45,6 +45,29 @@ nav a:hover {
     background-color:#004643;
     color:#fffffe;
     margin: 5px;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    padding: 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    /* width: 200px; */
+}
+
+nav ul li ul li a {
+    padding-right: 10px;
+}
+
+nav ul li ul li a:hover {
+    background-color:#004643;
 }
 
 main {
@@ -197,24 +220,4 @@ article img:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.dropdown:hover .dropdown {
-    display: block;
-}
-
-.dropdown {
-    display: block;
-    position: absolute;
-    background-color: aqua;
-}
-
-
-.dropdown a {
-    padding: 0px;
-}
-
-.dropdown ul li {
-    width: 100px;
-    padding: 0px;
 }
