@@ -43,7 +43,7 @@
                 <a href="#contact">Contact Me</a>
             </li>
             <li>
-                <a href="#contact">Resume</a>
+                <a onclick="Resume()">Resume</a>
             </li>        
         </ul>
     </nav> 
@@ -99,6 +99,14 @@
                 <a href="https://github.com/CMolitor96">Github</a>
             </div>
     </footer>
-    
+
+    <!-- Added javascript for alert box when clicking resume
+         No pointer icon when hovering but will fix later, removed
+         local link to contact section from resume -->
+    <script>
+        function Resume() {
+            alert("Please email me for a copy of my resume");
+        }
+    </script>
 </body>
 </html>
