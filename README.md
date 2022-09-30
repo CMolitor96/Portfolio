@@ -5,4 +5,4 @@ This is my portfolio webpage where potential recruiters, employers, and other pe
 URL of Deployed Application: https://cmolitor96.github.io/Portfolio/
 
 Screenshot of webpage:
-![Portfolio_Screenshot](https://user-images.githubusercontent.com/103666997/176064034-08c3150c-c78b-41ac-8369-515801c7a6b4.png)
+![Portfolio](https://user-images.githubusercontent.com/103666997/193181839-b1f65c6e-d914-492a-9223-f6351f727f29.png)
